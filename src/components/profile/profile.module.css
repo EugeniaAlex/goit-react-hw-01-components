@@ -1,0 +1,88 @@
+.profile {
+    /* background: rgb(236, 222, 222); */
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(156, 169, 180);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(121, 162, 197, 0.5);
+    overflow: hidden;
+    
+    
+}
+.description {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    background: white;
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgb(182, 156, 134);
+}
+.name {
+    font-size: 24px;
+    color: rgb(29, 28, 28);
+    font-weight: 600;
+    
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    border-top: solid;
+    border-width: 2px;
+    border-color: rgb(208, 230, 248);
+    border-radius: 0 0 3px 3px;
+    
+}
+
+ul.stats li {
+    padding: 26px 0;
+    width: 100px;
+    background: rgb(244, 251, 253);
+    
+    
+}
+
+ul.stats li:not(:last-child) {
+    border-right: solid;
+    border-width: 2px;
+    border-color: rgb(208, 230, 248);
+
+}
+
+ul.stats li:first-child {
+    border-radius: 0 0 0 3px;
+
+}
+
+ul.stats li:last-child {
+    border-radius: 0 0 3px 0;
+}
+
+.label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.quantity {
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(29, 28, 28);
+
+}
